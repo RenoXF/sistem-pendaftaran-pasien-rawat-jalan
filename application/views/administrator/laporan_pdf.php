@@ -46,8 +46,7 @@
     <tr>
         <td align="center">
         <span style="line-height: 1.6; font-weight: bold;">
-        KLINIK UDB<br>
-        SURAKARTA
+        Klinik Basmalah Pacitan<br>
         </span>
         </td>
     </tr>
@@ -96,7 +95,7 @@ LAPORAN KUNJUNGAN PASIEN
 <tr>
     <td></td>
     <td width="200px">
-        <p>Surakarta, .................... <br> Pimpinan Klinik</p>
+        <p>Pacitan, .................... <br> Pimpinan Klinik</p>
         <br>
         <br>
         <p>__________________________</p>

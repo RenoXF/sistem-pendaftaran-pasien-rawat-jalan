@@ -46,7 +46,7 @@ INSERT INTO `data_dokter` (`id_dokter`, `nip_dokter`, `nama_dokter`, `jenis_kela
 (7, '191122224525526', 'Dr. ASIH, A. SpOG (K)', '', 'SOLO', '0894673839465', 'KEBIDANAN DAN KANDUNGAN'),
 (8, '122345556722134', 'Dr. ARIESTA AYU. A', '', 'SOLO', '0856738282641', 'UMUM'),
 (9, '11511223684958', 'Drg. DENTADIO G, M.M.', 'LAKI-LAKI', 'SOLO', '08772645512', 'GIGI'),
-(10, '0000000000', 'Dr. Zurlyan', 'Perempuan', 'Sukoharjo', '085646332419', 'UMUM');
+(10, '0000000000', 'Dr. Elvira', 'Perempuan', 'Sukoharjo', '081357267496', 'UMUM');
 
 -- --------------------------------------------------------
 
@@ -116,23 +116,23 @@ CREATE TABLE `data_pendaftaran` (
 --
 
 INSERT INTO `data_pendaftaran` (`id_pendaftaran`, `no_rm`, `nama_pasien`, `tgl_pendaftaran`, `id_poliklinik`, `id_dokter`, `no_antrian`, `petugas`, `status_periksa`) VALUES
-(15, 'RM000001', 'JAIDEN', '2022-06-25', 'POLI UMUM', '6', '1', 'Zurlyan', 'SELESAI'),
-(16, 'RM000002', 'DAFFA AJI WIBOWO', '2022-06-25', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', '2', 'Zurlyan', 'SELESAI'),
-(17, 'RM000003', 'ANIQ JIDAN', '2022-06-25', 'POLI GIGI', 'Drg. DENTADIO G, M.M.', '1', 'Zurlyan', 'SELESAI'),
-(18, 'RM000004', 'JAMAL', '2022-06-25', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', '3', 'Zurlyan', 'SELESAI'),
-(19, 'RM000005', 'SYAIFUL AHMMAD', '2022-06-25', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', '4', 'Zurlyan', 'SELESAI'),
-(20, 'RM000006', 'NUR JANAH', '2022-06-26', 'POLI OBGYN', 'Dr. ASIH, A. SpOG (K)', '1', 'Zurlyan', 'SELESAI'),
-(21, 'RM000007', 'MAEMUNAH', '2022-06-26', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', '1', 'Zurlyan', 'SELESAI'),
-(22, 'RM000008', 'ANIDA AYU', '2022-06-26', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', '2', 'Zurlyan', 'SELESAI'),
-(23, 'RM000009', 'MARETA AYU', '2022-06-26', 'POLI GIGI', 'Drg. DENTADIO G, M.M.', '1', 'Zurlyan', 'SELESAI'),
-(24, 'RM000010', 'SYIFA HANI', '2022-06-26', 'POLI OBGYN', 'Dr. ASIH, A. SpOG (K)', '2', 'Zurlyan', 'SELESAI'),
-(25, 'RM000011', 'SOHIBUL ANWAR', '2022-06-26', 'POLI GIGI', 'Drg. DENTADIO G, M.M.', '2', 'Zurlyan', 'SELESAI'),
-(26, 'RM000012', 'JIDAN NURHIDAYAT', '2022-06-27', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', '1', 'Zurlyan', 'SELESAI'),
-(27, 'RM000013', 'YUNITA WISDA', '2022-06-28', 'POLI GIGI', 'Drg. DENTADIO G, M.M.', '1', 'Zurlyan', 'SELESAI'),
-(28, 'RM000014', 'JADID', '2022-07-21', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', '1', 'Zurlyan', 'SELESAI'),
-(33, 'RM000015', 'JAMIL', '2022-08-29', 'POLI GIGI', 'Drg. DENTADIO G, M.M.', '1', 'Zurlyan', 'SELESAI'),
-(34, 'RM000017', 'DENIS', '2022-09-06', 'POLI GIGI', 'Drg. DENTADIO G, M.M.', 'A001', 'Zurlyan', 'SELESAI'),
-(35, 'RM000018', 'HELDA', '2022-09-06', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', 'A002', 'Zurlyan', 'SELESAI');
+(15, 'RM000001', 'JAIDEN', '2022-06-25', 'POLI UMUM', '6', '1', 'Elvira', 'SELESAI'),
+(16, 'RM000002', 'DAFFA AJI WIBOWO', '2022-06-25', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', '2', 'Elvira', 'SELESAI'),
+(17, 'RM000003', 'ANIQ JIDAN', '2022-06-25', 'POLI GIGI', 'Drg. DENTADIO G, M.M.', '1', 'Elvira', 'SELESAI'),
+(18, 'RM000004', 'JAMAL', '2022-06-25', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', '3', 'Elvira', 'SELESAI'),
+(19, 'RM000005', 'SYAIFUL AHMMAD', '2022-06-25', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', '4', 'Elvira', 'SELESAI'),
+(20, 'RM000006', 'NUR JANAH', '2022-06-26', 'POLI OBGYN', 'Dr. ASIH, A. SpOG (K)', '1', 'Elvira', 'SELESAI'),
+(21, 'RM000007', 'MAEMUNAH', '2022-06-26', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', '1', 'Elvira', 'SELESAI'),
+(22, 'RM000008', 'ANIDA AYU', '2022-06-26', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', '2', 'Elvira', 'SELESAI'),
+(23, 'RM000009', 'MARETA AYU', '2022-06-26', 'POLI GIGI', 'Drg. DENTADIO G, M.M.', '1', 'Elvira', 'SELESAI'),
+(24, 'RM000010', 'SYIFA HANI', '2022-06-26', 'POLI OBGYN', 'Dr. ASIH, A. SpOG (K)', '2', 'Elvira', 'SELESAI'),
+(25, 'RM000011', 'SOHIBUL ANWAR', '2022-06-26', 'POLI GIGI', 'Drg. DENTADIO G, M.M.', '2', 'Elvira', 'SELESAI'),
+(26, 'RM000012', 'JIDAN NURHIDAYAT', '2022-06-27', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', '1', 'Elvira', 'SELESAI'),
+(27, 'RM000013', 'YUNITA WISDA', '2022-06-28', 'POLI GIGI', 'Drg. DENTADIO G, M.M.', '1', 'Elvira', 'SELESAI'),
+(28, 'RM000014', 'JADID', '2022-07-21', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', '1', 'Elvira', 'SELESAI'),
+(33, 'RM000015', 'JAMIL', '2022-08-29', 'POLI GIGI', 'Drg. DENTADIO G, M.M.', '1', 'Elvira', 'SELESAI'),
+(34, 'RM000017', 'DENIS', '2022-09-06', 'POLI GIGI', 'Drg. DENTADIO G, M.M.', 'A001', 'Elvira', 'SELESAI'),
+(35, 'RM000018', 'HELDA', '2022-09-06', 'POLI UMUM', 'Dr. MOCHTAR BUCHORI', 'A002', 'Elvira', 'SELESAI');
 
 -- --------------------------------------------------------
 
@@ -178,13 +178,13 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `username`, `password`, `email`, `level`, `blokir`, `id_session`) VALUES
 (1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin@gmail.com', 'Admin', 'N', ''),
-(2, 'zurlyan', '21232f297a57a5a743894a0e4a801fc3', 'zurlyan@gmail.com', 'Admin', 'N', ''),
-(3, 'Dr.Muchtar', '8d9057e25b6ef29445b11bdbbc2275ec', 'muchtar@gmail.com', 'Dokter', 'N', ''),
-(4, 'Eni', '0d317ba468771f7dac577d3a14103931', 'eni1221@gmail.com', 'Admin', 'N', ''),
-(5, 'SriAyu', '457386e1535b5d08866dcd535bf6a007', 'sriayu@gmail.com', 'Admin', 'N', ''),
-(6, 'Haryanti', '1a0c7fa35bb6eeb4a4d9c308027b10bc', 'haryanti@gmail.com', 'Admin', 'N', ''),
-(7, 'Yayuk', '9bdf061a019cb98d52e36cbd2f299aac', 'yayuk1432@gmail.com', 'Admin', 'N', ''),
-(8, 'Desy', '1647025daf5e9945e425c82ad5c0bd2a', 'desy22@gmail.com', 'Admin', 'N', '');
+(2, 'elvira', '21232f297a57a5a743894a0e4a801fc3', 'Elvira@gmail.com', 'Dokter', 'N', ''),
+(3, 'Dr.Muchtar', '21232f297a57a5a743894a0e4a801fc3', 'muchtar@gmail.com', 'Dokter', 'N', ''),
+(4, 'Eni', '21232f297a57a5a743894a0e4a801fc3', 'eni1221@gmail.com', 'Admin', 'N', ''),
+(5, 'SriAyu', '21232f297a57a5a743894a0e4a801fc3', 'sriayu@gmail.com', 'Admin', 'N', ''),
+(6, 'Haryanti', '21232f297a57a5a743894a0e4a801fc3', 'haryanti@gmail.com', 'Admin', 'N', ''),
+(7, 'Yayuk', '21232f297a57a5a743894a0e4a801fc3', 'yayuk1432@gmail.com', 'Admin', 'N', ''),
+(8, 'Desy', '21232f297a57a5a743894a0e4a801fc3', 'desy22@gmail.com', 'Admin', 'N', '');
 
 --
 -- Indexes for dumped tables

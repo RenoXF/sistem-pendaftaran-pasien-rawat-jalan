@@ -8,7 +8,7 @@
 
 <?php echo anchor('administrator/datapendaftaran/tambah_datapendaftaran','<button class="btn btn-sm btn-primary mb-3"><i class="fas fa-plus fa-sm"></i> Tambah Data Pendaftaran</button>') ?>
 
-<?php echo anchor('administrator/datapendaftaran/excel','<button class="btn btn-sm btn-success mb-3"><i class="fas fa-file-csv"></i> Export Excel</button>')?>
+<!--<?php echo anchor('administrator/datapendaftaran/excel','<button class="btn btn-sm btn-success mb-3"><i class="fas fa-file-csv"></i> Export Excel</button>')?>-->
 
 <?php echo anchor('administrator/datapendaftaran/export','<button class="btn btn-sm btn-danger mb-3"><i class="fas fa-file-pdf"></i> Export PDF</button>')?>
 

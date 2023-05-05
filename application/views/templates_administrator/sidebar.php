@@ -11,7 +11,7 @@
                 <div class="sidebar-brand-icon">
                 <i class="fa-solid fa-house-chimney-medical"></i>
                 </div>
-                <div class="sidebar-brand-text mx-1"><br><img src="<?php echo base_url () ?>images/logoklinik.png" alt="" width="40" height="40" class="d-inline-block align-text-top" /><br>SPPRJ-KLINIK UDB Surakarta</div>
+                <div class="sidebar-brand-text mx-1"><br><img src="<?php echo base_url () ?>images/logoklinik.png" alt="" width="40" height="40" class="d-inline-block align-text-top" /><br>SPPRJ-Klinik Basmalah Pacitan</div>
             </a>
 
             <!-- Divider -->

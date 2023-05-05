@@ -148,8 +148,8 @@ class Datapendaftaran extends CI_Controller{
 
         $object = new PHPExcel();
 
-        $object->getProperties()->setCreator("Klinik UDB SURAKARTA");
-        $object->getProperties()->setLastModifiedBy("Klinik UDB SURAKARTA");
+        $object->getProperties()->setCreator("Klinik Basmalah Pacitan");
+        $object->getProperties()->setLastModifiedBy("Klinik Basmalah Pacitan");
         $object->getProperties()->setTitle("Laporan Kunjungan Pasien");
 
         $object->setActiveSheetIndex(0);
@@ -179,7 +179,7 @@ class Datapendaftaran extends CI_Controller{
 
         $filename="Laporan_Kunjungan_Pasien".'.xlsx';
 
-        $object->getActiveSheet()->setTitle("Klinik UDB");
+        $object->getActiveSheet()->setTitle("Klinik Basmalah Pacitan");
 
         header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
         header('Content-Disposition: attachment;filename="'.$filename.'"');

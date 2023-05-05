@@ -11,13 +11,13 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="<?php echo base_url()?>style.css" />
 
-    <title>SPPRJ | KLINIK UDB SURAKARTA</title>
+    <title>SPPRJ | KLINIK BASMALAH PACITAN</title>
   </head>
   <body id="home">
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"> <img src="<?php echo base_url () ?>images/logoklinik.png" alt="" width="30" height="24" class="d-inline-block align-text-top" /> SPPRJ | <b>KLINIK UDB SURAKARTA</b></a>
+        <a class="navbar-brand" href="#"> <img src="<?php echo base_url () ?>images/logoklinik.png" alt="" width="30" height="24" class="d-inline-block align-text-top" /> SPPRJ | <b>KLINIK BASMALAH PACITAN</b></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,7 +47,7 @@
               <img src="<?php echo base_url () ?>images/logoklinik.png" alt="Dokter" width="225" class="rounded-circle img-thumbnail" />
               <h2 class="display-4">Selamat Datang Admin!</h2>
               <marquee>
-              <p class="lead"><b>Sistem Pendaftaran Pasien Rawat Jalan Berbasis Web | Klinik UDB SURAKARTA</b></p>
+              <p class="lead"><b>Sistem Pendaftaran Pasien Rawat Jalan Berbasis Web | Klinik Basmalah Pacitan</b></p>
             </marquee>        
           </section>
               </div>
@@ -104,14 +104,14 @@
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4">
-            <p>Jl. K.H Samanhudi No.93, Sondakan, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57147</p>
+            <p>Jl.Nasional 3 Dsn.Krajan Ds.Gendaran Rt.02 Rw.03 Kec.Donorojo Kab.Pacitan Jawa Timur</p>
           </div>
           <div class="col-md-4">
-            <p>085646332419</p>
+            <p>081357267496</p>
           </div>
         </div>
       </div>
-      <br><br><br><p>Created by Zurlyan Qurrotaayun</p>
+      <br><br><br><p>Created by Elvira Dwi Krisnawanti</p>
     </footer>
     <!-- Akhir Footer -->
 
